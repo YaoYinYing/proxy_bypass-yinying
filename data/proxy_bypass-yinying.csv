@@ -1,77 +1,74 @@
 ip,notes
-*.163.com,
-*.1drv.com,onedrive
+*.163.com,domain from China
+*.1drv.com,Microsoft
 *.1e100.net,
-*.alibaba.com,
-*.alipay.com,
-*.aliyun.com,
-*.aliyuncs.com,
-*.amazonaws.com,
-*.baidu.com,
-*.bilibili.com,
-*.bing.com,
-*.bt.cn,
-*.cnki.net,
+*.alibaba.com,domain from China
+*.alipay.com,domain from China
+*.aliyun.com,domain from China
+*.aliyuncs.com,domain from China
+*.amazonaws.com,domain from China
+*.baidu.com,domain from China
+*.bilibili.com,domain from China
+*.bing.com,Microsoft
+*.cnki.net,Academic domains required for full-text access of PDFs
 *.edu,
-*.edu.cn,
-*.elsevier.com,
-*.github.com,
-*.live.com,
-*.live.net,
-*.mi.com,
-*.miui.com,
-*.oray.com,
-*.oray.net,
-*.oup.com,
+*.edu.cn,domain from China
+*.elsevier.com,Academic domains required for full-text access of PDFs
+*.github.com,Accessed by Hosts
+*.live.com,Microsoft
+*.live.net,Microsoft
+*.mi.com,domain from China
+*.miui.com,domain from China
+*.oray.com,domain from China
+*.oray.net,domain from China
+*.oup.com,Academic domains required for full-text access of PDFs
 *.pyrosetta.org,
-*.qq.com,
-*.qq.com,
-*.sciencedirect.com,
-*.sciencemag.org,
-*.sina.com.cn,
-*.sinaimg.cn,
-*.taobao.com,
-*.tencent.com,
-*.weibo.com,
-*.windows.com,
-*.yaoyy.moe,
-*.yaoyy.moe,
-*.yinlab.cn,
-10.*,
-10.10.1.96,
+*.qq.com,domain from China
+*.sciencedirect.com,Academic domains required for full-text access of PDFs
+*.sciencemag.org,Academic domains required for full-text access of PDFs
+*.sina.com.cn,domain from China
+*.sinaimg.cn,domain from China
+*.taobao.com,domain from China
+*.tencent.com,domain from China
+*.weibo.com,domain from China
+*.windows.com,Microsoft
+*.yaoyy.moe,"self hosted, which refers to intranet IPs"
+*.yinlab.cn,intranet ip of HZAU
+10.*,intranet ip
+10.10.1.96,intranet ip
 101.37.202.181,
 112.13.122.4,
 113.96.*,
 117.187.*,
 119.147.*,
-122.205.*,
-127.*,
-127.0.0.1,
-142.251.*,
-172.16.*,
-172.17.*,
-172.18.*,
-172.19.*,
-172.20.*,
-172.21.*,
-172.22.*,
-172.23.*,
-172.24.*,
-172.25.*,
-172.26.*,
-172.27.*,
-172.28.*,
-172.29.*,
-172.30.*,
-172.31.*,
-183.220.*,
-183.221.*,
-183.222.*,
-183.223.*,
-183.224.*,
-183.240.*,
-192.168.*,
-211.69.*,
+122.205.*,intranet ip of HZAU
+127.*,intranet ip
+127.0.0.1,intranet ip
+142.251.*,intranet ip
+172.16.*,intranet ip
+172.17.*,intranet ip
+172.18.*,intranet ip
+172.19.*,intranet ip
+172.20.*,intranet ip
+172.21.*,intranet ip
+172.22.*,intranet ip
+172.23.*,intranet ip
+172.24.*,intranet ip
+172.25.*,intranet ip
+172.26.*,intranet ip
+172.27.*,intranet ip
+172.28.*,intranet ip
+172.29.*,intranet ip
+172.30.*,intranet ip
+172.31.*,intranet ip
+183.220.*,Netease Music
+183.221.*,Netease Music
+183.222.*,Netease Music
+183.223.*,Netease Music
+183.224.*,Netease Music
+183.240.*,Netease Music
+192.168.*,intranet ip
+211.69.*,intranet ip of HZAU
 221.178.*,
 223.252.*,
 36.147.*,
@@ -84,5 +81,5 @@ ip,notes
 47.99.223.240,
 52.89.166.118,
 59.111.*,
-ec2-34-216-218-160.us-west-2.compute.amazonaws.com,
+ec2-34-216-218-160.us-west-2.compute.amazonaws.com,Endnote
 localhost,
