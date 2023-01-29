@@ -22,10 +22,12 @@ IFS=','
 bypass_list=""
 
 echo "Open CSV file: $(readlink -f $run_dir/../data/proxy_bypass-yinying.csv)"
-while read -r ip _
+while read -r ip note
 do
+    # skip the header
     if [[ "$ip" == ip ]];then continue;fi
-    echo "Gather $ip to $active_interface_name"
+
+    echo "Gather $ip to $active_interface_name because of $note"
     bypass_list="$bypass_list $ip"
 
 done < $run_dir/../data/proxy_bypass-yinying.csv
