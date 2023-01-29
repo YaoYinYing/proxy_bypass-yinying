@@ -2,6 +2,7 @@
 
 # make it stop if error occurs
 set -e 
+
 batch_size=10
 
 run_dir="$(readlink -f $(dirname $0))"
@@ -23,19 +24,15 @@ bypass_list=""
 echo "Open CSV file: $(readlink -f $run_dir/../data/proxy_bypass-yinying.csv)"
 while read -r ip _
 do
-    #echo "bypassing $ip to $active_interface_name"
+    if [[ "$ip" == ip ]];then continue;fi
+    echo "Gather $ip to $active_interface_name"
     bypass_list="$bypass_list $ip"
-    if [[ "$(echo $bypass_list | wc -w)" -ge "$batch_size" ]]; then
-      echo "Bypassing proxy for $bypass_list"
-      networksetup -setbypassdomains "$active_interface_name" "$bypass_list"
-      bypass_list=""
-    fi
+
 done < $run_dir/../data/proxy_bypass-yinying.csv
 
-# Set the proxy bypass settings for remaining IP addresses or domains
-if [[ -n $bypass_list ]]; then
-  echo "Bypassing proxy for $bypass_list"
-  networksetup -setbypassdomains "$active_interface_name" "$bypass_list"
-fi
+echo "Bypassing proxy for $bypass_list"
+echo networksetup -setproxybypassdomains "$active_interface_name" "$bypass_list"
+networksetup -setproxybypassdomains "$active_interface_name" "$bypass_list"
+
 
 echo "Proxy bypass settings updated"
