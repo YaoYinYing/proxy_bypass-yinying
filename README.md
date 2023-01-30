@@ -10,7 +10,13 @@ Append ip/address to the `ip` column `data/proxy_bypass-yinying.csv`.
 # function that will be used.
 source <repo>/scripts/tools_add_ip_macos.sh
 
-# append ip/thread name/datetime to the list.
+# find the thread name you wish to bypass proxy settings.
+lsof -i -n -P
+
+# append ip/thread name/datetime to the list. the proxy must be disabled.
+AddBypassIP NeteaseMusic
+AddBypassIP WeChat
+
 ```
 
 ### Apply the proxy bypassing
