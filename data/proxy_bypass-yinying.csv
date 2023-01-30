@@ -1,87 +1,149 @@
-ip,notes
-*.163.com,domain from China
-*.1drv.com,Microsoft
-*.1e100.net,
-*.alibaba.com,domain from China
-*.alipay.com,domain from China
-*.aliyun.com,domain from China
-*.aliyuncs.com,domain from China
-*.amazonaws.com,domain from China
-*.baidu.com,domain from China
-*.bilibili.com,domain from China
-*.bing.com,Microsoft
-*.cnki.net,Academic domains required for full-text access of PDFs
-*.edu,
-*.edu.cn,domain from China
-*.elsevier.com,Academic domains required for full-text access of PDFs
-*.github.com,Accessed by Hosts
-*.live.com,Microsoft
-*.live.net,Microsoft
-*.mi.com,domain from China
-*.miui.com,domain from China
-*.oray.com,domain from China
-*.oray.net,domain from China
-*.oup.com,Academic domains required for full-text access of PDFs
-*.pyrosetta.org,
-*.qq.com,domain from China
-*.sciencedirect.com,Academic domains required for full-text access of PDFs
-*.sciencemag.org,Academic domains required for full-text access of PDFs
-*.sina.com.cn,domain from China
-*.sinaimg.cn,domain from China
-*.taobao.com,domain from China
-*.tencent.com,domain from China
-*.weibo.com,domain from China
-*.windows.com,Microsoft
-*.yaoyy.moe,"self hosted, which refers to intranet IPs"
-*.yinlab.cn,intranet ip of HZAU
-10.*,intranet ip
-10.10.1.96,intranet ip
-101.37.202.181,
-112.13.122.4,
-113.249.*,Netease Music
-113.96.*,
-115.236.*,Netease Music
-117.187.*,
-118.121.*,Netease Music
-119.147.*,
-122.205.*,intranet ip of HZAU
-127.*,intranet ip
-127.0.0.1,intranet ip
-142.251.*,intranet ip
-172.16.*,intranet ip
-172.17.*,intranet ip
-172.18.*,intranet ip
-172.19.*,intranet ip
-172.20.*,intranet ip
-172.21.*,intranet ip
-172.22.*,intranet ip
-172.23.*,intranet ip
-172.24.*,intranet ip
-172.25.*,intranet ip
-172.26.*,intranet ip
-172.27.*,intranet ip
-172.28.*,intranet ip
-172.29.*,intranet ip
-172.30.*,intranet ip
-172.31.*,intranet ip
-183.220.*,Netease Music
-183.221.*,Netease Music
-183.222.*,Netease Music
-183.223.*,Netease Music
-183.224.*,Netease Music
-183.240.*,Netease Music
-192.168.*,intranet ip
-211.69.*,intranet ip of HZAU
-221.178.*,
-223.252.*,Netease Music
-36.147.*,
-36.170.*,
-39.137.*,
-40.90.189.152,
-42.186.*,
-47.94.161.10,
-47.99.223.240,
-52.89.166.118,
-59.111.*,
-ec2-34-216-218-160.us-west-2.compute.amazonaws.com,Endnote
-localhost,
+ip,notes,date
+*.163.com,domain from China,
+*.1drv.com,Microsoft,
+*.1e100.net,,
+*.alibaba.com,domain from China,
+*.alipay.com,domain from China,
+*.aliyun.com,domain from China,
+*.aliyuncs.com,domain from China,
+*.amazonaws.com,domain from China,
+*.baidu.com,domain from China,
+*.bilibili.com,domain from China,
+*.bing.com,Microsoft,
+*.cnki.net,Academic domains required for full-text access of PDFs,
+*.edu,,
+*.edu.cn,domain from China,
+*.elsevier.com,Academic domains required for full-text access of PDFs,
+*.github.com,Accessed by Hosts,
+*.live.com,Microsoft,
+*.live.net,Microsoft,
+*.mi.com,domain from China,
+*.miui.com,domain from China,
+*.oray.com,domain from China,
+*.oray.net,domain from China,
+*.oup.com,Academic domains required for full-text access of PDFs,
+*.pyrosetta.org,,
+*.qq.com,domain from China,
+*.sciencedirect.com,Academic domains required for full-text access of PDFs,
+*.sciencemag.org,Academic domains required for full-text access of PDFs,
+*.sina.com.cn,domain from China,
+*.sinaimg.cn,domain from China,
+*.taobao.com,domain from China,
+*.tencent.com,domain from China,
+*.weibo.com,domain from China,
+*.windows.com,Microsoft,
+*.yaoyy.moe,"self hosted, which refers to intranet IPs",
+*.yinlab.cn,intranet ip of HZAU,
+10.*,intranet ip,
+10.10.1.96,intranet ip,
+101.37.202.181,,
+112.13.122.4,,
+113.249.*,Netease Music,
+113.249.87.128,NeteaseMusic,
+113.249.87.129,NeteaseMusic,
+113.96.*,,
+115.236.*,Netease Music,
+115.236.118.34,NeteaseMusic,
+115.236.121.4,NeteaseMusic,
+117.187.*,,
+118.121.*,Netease Music,
+119.147.*,,
+122.205.*,intranet ip of HZAU,
+127.*,intranet ip,
+127.0.0.1,intranet ip,
+142.251.*,intranet ip,
+172.16.*,intranet ip,
+172.17.*,intranet ip,
+172.18.*,intranet ip,
+172.19.*,intranet ip,
+172.20.*,intranet ip,
+172.21.*,intranet ip,
+172.22.*,intranet ip,
+172.23.*,intranet ip,
+172.24.*,intranet ip,
+172.25.*,intranet ip,
+172.26.*,intranet ip,
+172.27.*,intranet ip,
+172.28.*,intranet ip,
+172.29.*,intranet ip,
+172.30.*,intranet ip,
+172.31.*,intranet ip,
+182.242.221.89,NeteaseMusic,
+182.242.89.241,NeteaseMusic,
+183.220.*,Netease Music,
+183.221.*,Netease Music,
+183.222.*,Netease Music,
+183.223.*,Netease Music,
+183.224.*,Netease Music,
+183.240.*,Netease Music,
+192.168.*,intranet ip,
+211.69.*,intranet ip of HZAU,
+221.178.*,,
+223.252.*,Netease Music,
+36.147.*,,
+36.170.*,,
+39.137.*,,
+40.90.189.152,,
+42.186.*,,
+42.186.111.84,NeteaseMusic,
+42.186.111.91,NeteaseMusic,
+42.186.120.199,NeteaseMusic,
+42.186.120.200,NeteaseMusic,
+42.186.120.205,NeteaseMusic,
+45.253.145.73,NeteaseMusic,
+47.94.161.10,,
+47.99.223.240,,
+52.89.166.118,,
+59.111.*,,
+ec2-34-216-218-160.us-west-2.compute.amazonaws.com,Endnote,
+localhost,,
+113.249.87.129,NeteaseMusic,2023/1/30
+115.236.118.34,NeteaseMusic,2023-01-30_110034
+42.186.111.84,NeteaseMusic,2023-01-30_110034
+42.186.120.200,NeteaseMusic,2023-01-30_110034
+45.253.145.73,NeteaseMusic,2023-01-30_110034
+182.242.221.89,NeteaseMusic,2023-01-30_110034
+115.236.118.34,NeteaseMusic,2023-01-30_110035
+42.186.111.84,NeteaseMusic,2023-01-30_110035
+42.186.120.200,NeteaseMusic,2023-01-30_110035
+45.253.145.73,NeteaseMusic,2023-01-30_110035
+182.242.221.89,NeteaseMusic,2023-01-30_110035
+115.236.118.34,NeteaseMusic,2023-01-30_110755
+182.242.221.89,NeteaseMusic,2023-01-30_110755
+42.186.111.84,NeteaseMusic,2023-01-30_110755
+42.186.120.200,NeteaseMusic,2023-01-30_110755
+115.236.118.34,NeteaseMusic,2023-01-30_110756
+182.242.221.89,NeteaseMusic,2023-01-30_110756
+42.186.111.84,NeteaseMusic,2023-01-30_110756
+42.186.120.200,NeteaseMusic,2023-01-30_110756
+115.236.118.34,NeteaseMusic,2023-01-30_110757
+182.242.221.89,NeteaseMusic,2023-01-30_110757
+42.186.111.84,NeteaseMusic,2023-01-30_110757
+42.186.120.200,NeteaseMusic,2023-01-30_110757
+115.236.118.34,NeteaseMusic,2023-01-30_110758
+182.242.221.89,NeteaseMusic,2023-01-30_110758
+42.186.111.84,NeteaseMusic,2023-01-30_110758
+42.186.120.200,NeteaseMusic,2023-01-30_110758
+115.236.121.4,NeteaseMusic,2023-01-30_111338
+115.236.121.4,NeteaseMusic,2023-01-30_111339
+115.236.121.4,NeteaseMusic,2023-01-30_111340
+115.236.121.4,NeteaseMusic,2023-01-30_111343
+42.186.120.205,NeteaseMusic,2023-01-30_111343
+42.186.111.84,NeteaseMusic,2023-01-30_111343
+42.186.120.205,NeteaseMusic,2023-01-30_111350
+42.186.111.84,NeteaseMusic,2023-01-30_111350
+42.186.120.199,NeteaseMusic,2023-01-30_111456
+115.236.121.4,NeteaseMusic,2023-01-30_111456
+42.186.241.12,NeteaseMusic,2023-01-30_111456
+61.166.246.48,NeteaseMusic,2023-01-30_111456
+118.121.192.156,NeteaseMusic,2023-01-30_111456
+42.186.120.200,NeteaseMusic,2023-01-30_111456
+120.204.0.113,WeChat,2023-01-30_111804
+180.101.242.212,WeChat,2023-01-30_111804
+101.226.142.171,WeChat,2023-01-30_111804
+36.155.182.57,WeChat,2023-01-30_111804
+43.129.255.246,WeChat,2023-01-30_111804
+43.129.255.26,WeChat,2023-01-30_111804
+221.181.99.30,WeChat,2023-01-30_111804
+120.204.0.25,WeChat,2023-01-30_111804
+36.155.182.126,WeChat,2023-01-30_111804
