@@ -28,7 +28,7 @@ do
     if [[ "$ip" == ip ]];then continue;fi
 
     echo "Gather $ip to $active_interface_name because of $note"
-    bypass_list="$bypass_list $ip"
+    bypass_list="$bypass_list,$ip"
 
 done < $run_dir/../data/proxy_bypass-yinying.csv
 
